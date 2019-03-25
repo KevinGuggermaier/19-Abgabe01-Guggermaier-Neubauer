@@ -61,6 +61,13 @@ public class Calculator {
      *
      *
      */
+    public int sum(int i, int sum){
+        if(i == list.size())
+            return sum;
+        else{
+            return sum + sum(i+1, list.get(i));
+        }
+    }
 
     public int sum() {
         int sum=0;
