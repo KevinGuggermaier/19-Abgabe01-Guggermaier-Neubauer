@@ -1,5 +1,7 @@
-public class Calculator {
+import java.util.*;
 
+public class Calculator {
+    List<Integer> list = new ArrayList();
     /**
      * Student 1
      * Student 2+
@@ -64,5 +66,7 @@ public class Calculator {
 
     public int getMinimum(){return 2;}
 
-    public void addValue(int i){}
+    public void addValue(int i){
+        list.add(i);
+    }
 }
