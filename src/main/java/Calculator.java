@@ -64,7 +64,14 @@ public class Calculator {
 
     public int getMaximum(){return 1;}
 
-    public int getMinimum(){return 2;}
+    public int getMinimum(){
+        int min = list.get(0);
+        for(int i = 1; i < list.size(); i++){
+            if(list.get(i) < min)
+                min = list.get(i);
+        }
+        return min;
+    }
 
     public void addValue(int i){
         list.add(i);
