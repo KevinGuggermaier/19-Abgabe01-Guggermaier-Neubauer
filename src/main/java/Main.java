@@ -21,5 +21,6 @@ public class Main {
         System.out.println("Highest Number: " + calc.getMaximum());
 
         // output sum of all numbers
+        System.out.println("Sum of all Numbers: " + calc.sum());
     }
 }
