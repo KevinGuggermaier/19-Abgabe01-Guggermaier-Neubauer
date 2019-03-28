@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args){
 
-        Calculator calc = new Calculator();
+        Calculator calc = new CalculatorImpl();
 
 
         calc.addValue(20);	// currently highest number
