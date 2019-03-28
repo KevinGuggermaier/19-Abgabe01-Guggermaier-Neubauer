@@ -1,3 +1,10 @@
+/*
+ * Main Class
+ * Makes an Instance of the Calculator Class and calls different methods of it
+ * Author:      Kevin Guggermaier, Dominik Neubauer
+ * Last Change: 28.03.2019
+ */
+
 public class Main {
 
     public static void main(String[] args){
