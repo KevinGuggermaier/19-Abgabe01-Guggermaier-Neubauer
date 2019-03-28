@@ -13,6 +13,10 @@ Main Class:
 	At the end we print the Minimum, Maximum and sum to the console. 
 
 Calculator Class:
+	
+	Interface 
+	
+CalculatorImpl Class:
 
 	Overview:
 	Includes five different methods and one instance variable. 
