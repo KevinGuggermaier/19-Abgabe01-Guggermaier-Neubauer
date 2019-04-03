@@ -4,6 +4,7 @@
  * Author:      Kevin Guggermaier, Dominik Neubauer
  * Last Change: 28.03.2019
  */
+package at.fhj.iit;
 
 public class Main {
 

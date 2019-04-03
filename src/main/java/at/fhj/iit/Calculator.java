@@ -7,6 +7,7 @@
  * Last Change: 28.03.2019
  */
 
+package at.fhj.iit;
 import java.util.*;
 
 public abstract class Calculator {
